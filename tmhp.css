@@ -56,9 +56,15 @@ li {
 
 }
 
-a.black-color {
+a.black:link{ 
 
-  color: black;
+     color:black;
+
+}
+
+a.black:visited{ 
+
+     color:black;	
 
 }
 
