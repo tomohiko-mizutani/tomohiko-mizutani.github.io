@@ -1,0 +1,123 @@
+.my_body {
+
+    padding-top: 0rem;
+
+}
+
+.my_container {
+
+    width: auto;
+    max-width: 850px;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+
+.my_p {
+    
+    font-size: 100%;
+    font-weight: 300; 
+
+}
+
+
+.my_dd { 
+
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:2rem;
+
+}
+
+.my_h1 {
+
+    font-weight: bold;
+    font-size: 200%;
+
+}
+
+.my_h2 {
+
+    font-weight: bold;
+    font-size: 160%;
+
+}
+
+
+.my_h3 {
+
+    border-left: 5px solid #009900;
+    padding-left: 10px;
+    font-size: 130%;
+    font-weight: bold;
+
+}
+
+li {
+
+    margin-top: 1.0rem;
+    margin-bottom: 1.0rem;
+    style="list-style-position: outside;
+
+}
+
+a.black:link{ 
+
+     color:black;
+
+}
+
+a.black:visited{ 
+
+     color:black;	
+
+}
+
+
+
+.my_span {
+
+    font-weight: bold;
+
+}
+
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+
+.nav-justified {
+
+    display: table; 
+    table-layout: fixed; 
+    width: 50%;
+
+}
+
+.navbar .nav-justified > li {
+
+    display: table-cell; 
+    width: 50%;
+
+}
+
+
+.btn {
+    padding: 0.3px 1.5px;
+    background-color: #999999;
+    color: white;
+    text-transform: uppercase;	
+    font-size: 75%;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+
+.btn:hover {
+       color: white;
+       background-color: #E6E6E6;
+
+}
+
