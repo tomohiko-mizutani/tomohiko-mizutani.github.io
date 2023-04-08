@@ -1,6 +1,7 @@
 .my_body {
 
     padding-top: 0rem;
+    font-size: medium;
 
 }
 
@@ -15,8 +16,7 @@
 
 
 .my_p {
-    
-    font-size: 100%;
+
     font-weight: 300; 
 
 }
