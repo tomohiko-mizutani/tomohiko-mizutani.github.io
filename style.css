@@ -1,124 +1,104 @@
 .my_body {
-
     padding-top: 0rem;
-    font-size: 100%;
-    font-family: "Lucida Grande", "Verdana", "Tahoma", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
-    
+    font-size: 105%;
+    line-height: 1.7;
+    font-family: "Open Sans", "Inter", "Lucida Grande", "Verdana", "Tahoma",
+        "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+        "メイリオ", "Meiryo", sans-serif;
 }
 
 .my_container {
-
     width: auto;
-    max-width: 850px;
+    max-width: 900px;
     margin-top: 3rem;
     padding-bottom: 3rem;
-
 }
-
 
 .my_p {
-
-    font-weight: 300; 
-
+    font-weight: 300;
+    font-size: 1em;
 }
 
-
-.my_dd { 
-
-    padding-top:3px;
-    padding-bottom:3px;
-    padding-left:2rem;
-
+.my_dd {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 2rem;
+    font-size: 1em;
 }
 
 .my_h1 {
-
     font-weight: bold;
-    font-size: 200%;
-
+    font-size: 2rem;
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
 }
 
 .my_h2 {
-
     font-weight: bold;
-    font-size: 160%;
-
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
 
-
 .my_h3 {
-
-    border-left: 10px solid #009900;
-    padding-left: 10px;
-    font-size: 130%;
+    border-left: 8px solid #009900;
+    padding-left: 8px;
+    font-size: 1.3rem;
     font-weight: bold;
-
+    margin-top: 1.2rem;
+    margin-bottom: 0.6rem;
 }
 
 li {
-
-    margin-top: 1.0rem;
-    margin-bottom: 1.0rem;
-    style="list-style-position: outside;
-
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    list-style-position: outside;
+    font-size: 1em;
 }
 
-a.black:link{ 
-
-     color:black;
-
+a.black:link {
+    color: black;
+    text-decoration: none;
 }
 
-a.black:visited{ 
-
-     color:black;	
-
+a.black:visited {
+    color: black;
 }
-
-
 
 .my_span {
-
     font-weight: bold;
-
 }
-
 
 .navbar .navbar-nav .nav-link {
     color: white;
+    font-size: 1em;
 }
-
 
 .nav-justified {
-
-    display: table; 
-    table-layout: fixed; 
+    display: table;
+    table-layout: fixed;
     width: 50%;
-
 }
 
-.navbar .nav-justified > li {
-
-    display: table-cell; 
+.navbar .nav-justified>li {
+    display: table-cell;
     width: 50%;
-
 }
-
 
 .btn {
-    padding: 0.3px 1.5px;
+    padding: 0.45rem 1.6rem;
     background-color: #999999;
     color: white;
-    text-transform: uppercase;	
-    font-size: 75%;
+    text-transform: uppercase;
+    font-size: 0.85rem;
     font-weight: bold;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.4px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.25rem;
 }
-
 
 .btn:hover {
-       color: white;
-       background-color: #E6E6E6;
-
+    color: white;
+    background-color: #E6E6E6;
 }
-
